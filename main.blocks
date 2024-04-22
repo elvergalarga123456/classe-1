@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ZcF5yjRZc+,$b=pt(){w">mySprite</variable><variable type="KIND_SpriteKind" id="I,w*]LocE+w=Y8.t:j}?">Player</variable><variable type="KIND_SpriteKind" id="2-xVMR-(SPpqPc~o2@m4">Projectile</variable><variable type="KIND_SpriteKind" id="6)z6AyGva%o}[zqZdjA@">Food</variable><variable type="KIND_SpriteKind" id="zxGjjZy]Zd!jH@{QU~;F">Enemy</variable></variables><block type="pxt-on-start" id="+`$FsPzIFzQZ69_U0vtg" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="91`Bv|``,IgG.yhWt/:X"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="~svR0dBDC.Uz.VEn{Y]1"><value name="melody"><shadow type="melody_editor" id="zzVX$#K5sB?a0-QIY/d!"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="c67}Yg$_M2_,i8:^R}ub"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="variables_set" id="wi|W!zJiYoq#BFq(o,wf"><field name="VAR" id="ZcF5yjRZc+,$b=pt(){w">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="j)x95j^NkD}1*-/X1cL6"><value name="img"><shadow type="screen_image_picker" id=",CG7B/w/F]v,fr`x?~ZI"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":",CG7B/w/F]v,fr`x?~ZI"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="::^I9}=kD.mxdUn7{zcW"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
